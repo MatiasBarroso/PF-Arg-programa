@@ -32,12 +32,12 @@ let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
-crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
-let php = document.getElementById("php");
-crearBarra(php);
+let react = document.getElementById("react");
+crearBarra(react);
+let nodejs = document.getElementById("nodejs");
+crearBarra(nodejs);
+let sequelize = document.getElementById("sequelize");
+crearBarra(sequelize);
 let ilustrator = document.getElementById("ilustrator");
 crearBarra(ilustrator);
 
@@ -59,19 +59,19 @@ function efectoHabilidades() {
       pintarBarra(html, 16, 0, intervalHtml);
     }, 100);
     const intervalJavascript = setInterval(function () {
-      pintarBarra(javascript, 11, 1, intervalJavascript);
+      pintarBarra(javascript, 17, 1, intervalJavascript);
     }, 100);
-    const intervalWordpress = setInterval(function () {
-      pintarBarra(wordpress, 11, 2, intervalWordpress);
+    const intervalReact = setInterval(function () {
+      pintarBarra(react, 16, 2, intervalReact);
     }, 100);
-    const intervalPhotoshop = setInterval(function () {
-      pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+    const intervalNodejs = setInterval(function () {
+      pintarBarra(nodejs, 15, 3, intervalNodejs);
     }, 100);
-    const intervalPhp = setInterval(function () {
-      pintarBarra(php, 16, 4, intervalPhp);
+    const intervalSequelize = setInterval(function () {
+      pintarBarra(sequelize, 11, 4, intervalSequelize);
     }, 100);
     const intervalIlustrator = setInterval(function () {
-      pintarBarra(ilustrator, 11, 5, intervalIlustrator);
+      pintarBarra(ilustrator, 17, 5, intervalIlustrator);
     }, 100);
   }
 }
