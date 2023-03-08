@@ -65,10 +65,10 @@ function efectoHabilidades() {
       pintarBarra(react, 16, 2, intervalReact);
     }, 100);
     const intervalNodejs = setInterval(function () {
-      pintarBarra(nodejs, 15, 3, intervalNodejs);
+      pintarBarra(nodejs, 14, 3, intervalNodejs);
     }, 100);
     const intervalSequelize = setInterval(function () {
-      pintarBarra(sequelize, 11, 4, intervalSequelize);
+      pintarBarra(sequelize, 13, 4, intervalSequelize);
     }, 100);
     const intervalIlustrator = setInterval(function () {
       pintarBarra(ilustrator, 17, 5, intervalIlustrator);
@@ -82,7 +82,7 @@ function pintarBarra(id_barra, cantidad, indice, interval) {
   x = contadores[indice];
   if (x < cantidad) {
     let elementos = id_barra.getElementsByClassName("e");
-    elementos[x].style.backgroundColor = "#940253";
+    elementos[x].style.backgroundColor = "#59bdff";
   } else {
     clearInterval(interval);
   }

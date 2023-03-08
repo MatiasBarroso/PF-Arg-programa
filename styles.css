@@ -11,7 +11,7 @@ html{
 /* HOME SECTION */
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/fondo.jpg");
+    url("assets/bg-main.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -29,7 +29,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #940253;
+    background-color: #59bdff;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -51,12 +51,12 @@ html{
     text-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: #940253;
+    color: #59bdff;
     font-family: "Yellowtail";
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: #940253;
+    background-color: #59bdff;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -88,8 +88,8 @@ html{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #940253;
-    border: 1px solid #940253;
+    color: #59bdff;
+    border: 1px solid #59bdff;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -99,7 +99,7 @@ html{
 }
 .inicio .contenido-seccion .info .redes a:hover{
     color: #fff;
-    background-color: #940253;
+    background-color: #59bdff;
     box-shadow: 0 0 20px #fff;
 }
 .inicio .contenido-seccion .foto{
@@ -108,7 +108,7 @@ html{
 .inicio .contenido-seccion .foto img{
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid #940253;
+    border: 5px solid #59bdff;
     position: absolute;
     left: 50%;
     top: -100px;
@@ -121,7 +121,7 @@ html{
 }
 /* SECCION SOBRE MI */
 .sobremi{
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -135,14 +135,14 @@ html{
     font-size: 30px;
 }
 .sobremi .contenido-seccion .especial{
-    color: #940253;
+    color: #59bdff;
     font-weight: bold;
     margin-top: 15px;
 }
 .sobremi .contenido-seccion p{
     max-width: 700px;
     margin: auto;
-    color: #666;
+    color: #000000;
 }
 .sobremi .contenido-seccion .fila{
     display: flex;
@@ -153,11 +153,11 @@ html{
     width: 30%;
 }
 .sobremi .contenido-seccion .fila .col i{
-    color: #940253;
+    color: #59bdff;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #940253;
+    border: 2px solid #59bdff;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -170,8 +170,7 @@ html{
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/habilidades.jpg");
+    background-color: rgb(0, 52, 56);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -201,20 +200,20 @@ html{
 }
 .habilidades .contenido-seccion .barra{
     display: flex;
-    border: 1px solid #940253;
+    border: 1px solid #ffffff;
     padding: 2px;
     border-radius: 3px;
     margin-right: 10px;
 }
 .habilidades .contenido-seccion .barra .e{
-    background-color: #363636;
+    background-color: #013033;
     width: 20px;
     height: 30px;
     margin-right: 2px;
 }
 /* SECCION RESUMEN */
 .resumen{
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -238,9 +237,9 @@ html{
 }
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: #940253;
+    color: #59bdff;
     font-weight: bold;
-    border: 2px solid #940253;
+    border: 2px solid #59bdff;
     padding: 10px;
 
 }
@@ -264,7 +263,7 @@ html{
 }
 .resumen .contenido-seccion .info .col table .promedio{
     display: block;
-    color: #940253;
+    color: #59bdff;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -274,7 +273,7 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-color: #202020;
+    background-color: #013033;
     padding: 140px 0 100px 0;
     color: #e6e6e6;
     text-align: center;
@@ -296,7 +295,7 @@ html{
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: #940253;
+    color: #59bdff;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
